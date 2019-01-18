@@ -25,8 +25,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
-# Use ActiveStorage variant
+gem 'devise', '~> 4.4'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'simple_form', '~> 4.1.0'
+ gem 'record_tag_helper', '~> 1.0'
+ # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment

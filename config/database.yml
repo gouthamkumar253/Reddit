@@ -6,7 +6,7 @@
 #
 development:
    adapter: mysql2
-   database: cooking_dev
+   database: reddit_dev
    username: root
    password: goutham123
    host: 127.0.0.1
@@ -15,7 +15,7 @@ development:
   
 test:
    adapter: mysql2
-   database: cooking_test
+   database: reddit_test
    username: root
    password: goutham123
    host: 127.0.0.1
@@ -24,7 +24,7 @@ test:
    
 production:
    adapter: mysql2
-   database: cooking_prod
+   database: reddit_prod
    username: root
    password: goutham123
    host: 127.0.0.1
